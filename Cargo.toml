@@ -1,7 +1,11 @@
 [package]
 name = "windowless_sleep"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+authors = ["Paul Miller <paul@mutinywallet.com>"]
+description = "A sleep function for wasm that doesn't rely on window"
+license = "MIT"
+repository = "https://github.com/futurepaul/windowless_sleep/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
