@@ -1,6 +1,6 @@
 use wasm_bindgen::prelude::*;
 
-#[wasm_bindgen(module = "/src/sleep.js")]
+#[wasm_bindgen(inline_js = "export function js_sleep(millis) { return new Promise((resolve) => setTimeout(resolve, millis)); }")]
 extern "C" {
     pub fn js_sleep(millis: i32) -> js_sys::Promise;
 }
