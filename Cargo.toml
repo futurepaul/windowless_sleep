@@ -1,6 +1,6 @@
 [package]
 name = "windowless_sleep"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["Paul Miller <paul@mutinywallet.com>"]
 description = "A sleep function for wasm that doesn't rely on window"
